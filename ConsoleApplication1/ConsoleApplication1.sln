@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "Cons
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Types", "Data Types\Data Types.vcxproj", "{014056C8-E6A3-4845-9763-E765EA6ECD77}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program3_definingVariables", "Program3_definingVariables\Program3_definingVariables.vcxproj", "{117A8169-87F9-4903-89E6-901C2D42AFDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{014056C8-E6A3-4845-9763-E765EA6ECD77}.Release|x64.Build.0 = Release|x64
 		{014056C8-E6A3-4845-9763-E765EA6ECD77}.Release|x86.ActiveCfg = Release|Win32
 		{014056C8-E6A3-4845-9763-E765EA6ECD77}.Release|x86.Build.0 = Release|Win32
+		{117A8169-87F9-4903-89E6-901C2D42AFDA}.Debug|x64.ActiveCfg = Debug|x64
+		{117A8169-87F9-4903-89E6-901C2D42AFDA}.Debug|x64.Build.0 = Debug|x64
+		{117A8169-87F9-4903-89E6-901C2D42AFDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{117A8169-87F9-4903-89E6-901C2D42AFDA}.Debug|x86.Build.0 = Debug|Win32
+		{117A8169-87F9-4903-89E6-901C2D42AFDA}.Release|x64.ActiveCfg = Release|x64
+		{117A8169-87F9-4903-89E6-901C2D42AFDA}.Release|x64.Build.0 = Release|x64
+		{117A8169-87F9-4903-89E6-901C2D42AFDA}.Release|x86.ActiveCfg = Release|Win32
+		{117A8169-87F9-4903-89E6-901C2D42AFDA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
