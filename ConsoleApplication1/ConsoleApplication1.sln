@@ -8,6 +8,7 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program8_pi", "Program8_pi\Program8_pi.vcxproj", "{BAA340AE-8C57-466C-80FB-9B6AE755DA13}"
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program6_area", "Program6_area\Program6_area.vcxproj", "{DBC6553E-8F7F-4A6D-9FAB-8947F4B29558}"
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program7_converting", "Program7_converting\Program7_converting.vcxproj", "{552AD605-547A-4754-88EB-C147B07E27A4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program 5 Increment Decrement Operators", "Program 5 Increment Decrement Operators\Program 5 Increment Decrement Operators.vcxproj", "{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +74,14 @@ Global
 		{552AD605-547A-4754-88EB-C147B07E27A4}.Release|x64.Build.0 = Release|x64
 		{552AD605-547A-4754-88EB-C147B07E27A4}.Release|x86.ActiveCfg = Release|Win32
 		{552AD605-547A-4754-88EB-C147B07E27A4}.Release|x86.Build.0 = Release|Win32
+		{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}.Debug|x64.ActiveCfg = Debug|x64
+		{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}.Debug|x64.Build.0 = Debug|x64
+		{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}.Debug|x86.Build.0 = Debug|Win32
+		{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}.Release|x64.ActiveCfg = Release|x64
+		{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}.Release|x64.Build.0 = Release|x64
+		{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}.Release|x86.ActiveCfg = Release|Win32
+		{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
