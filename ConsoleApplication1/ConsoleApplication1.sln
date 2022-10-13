@@ -9,6 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program8_pi", "Program8_pi\
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program6_area", "Program6_area\Program6_area.vcxproj", "{DBC6553E-8F7F-4A6D-9FAB-8947F4B29558}"
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program7_converting", "Program7_converting\Program7_converting.vcxproj", "{552AD605-547A-4754-88EB-C147B07E27A4}"
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program 5 Increment Decrement Operators", "Program 5 Increment Decrement Operators\Program 5 Increment Decrement Operators.vcxproj", "{BE04A1C4-1A19-42F5-AFE0-E6DC67D804ED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Types", "Data Types\Data Types.vcxproj", "{014056C8-E6A3-4845-9763-E765EA6ECD77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program3_definingVariables", "Program3_definingVariables\Program3_definingVariables.vcxproj", "{117A8169-87F9-4903-89E6-901C2D42AFDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
