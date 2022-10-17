@@ -16,7 +16,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Types", "Data Types\Da
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program3_definingVariables", "Program3_definingVariables\Program3_definingVariables.vcxproj", "{117A8169-87F9-4903-89E6-901C2D42AFDA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program9_ifelse", "Program9_ifelse\Program9_ifelse.vcxproj", "{42FDD353-EF17-41B4-9FA2-E560649EAA02}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program9_ShareOfSavings", "Program9_ifelse\Program9_ifelse.vcxproj", "{42FDD353-EF17-41B4-9FA2-E560649EAA02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program10_ShareOfHaribo", "Program10_ShareOfHaribo\Program10_ShareOfHaribo.vcxproj", "{CABDF783-B4B3-4CAC-82F7-466F5258293E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,6 +92,14 @@ Global
 		{42FDD353-EF17-41B4-9FA2-E560649EAA02}.Release|x64.Build.0 = Release|x64
 		{42FDD353-EF17-41B4-9FA2-E560649EAA02}.Release|x86.ActiveCfg = Release|Win32
 		{42FDD353-EF17-41B4-9FA2-E560649EAA02}.Release|x86.Build.0 = Release|Win32
+		{CABDF783-B4B3-4CAC-82F7-466F5258293E}.Debug|x64.ActiveCfg = Debug|x64
+		{CABDF783-B4B3-4CAC-82F7-466F5258293E}.Debug|x64.Build.0 = Debug|x64
+		{CABDF783-B4B3-4CAC-82F7-466F5258293E}.Debug|x86.ActiveCfg = Debug|Win32
+		{CABDF783-B4B3-4CAC-82F7-466F5258293E}.Debug|x86.Build.0 = Debug|Win32
+		{CABDF783-B4B3-4CAC-82F7-466F5258293E}.Release|x64.ActiveCfg = Release|x64
+		{CABDF783-B4B3-4CAC-82F7-466F5258293E}.Release|x64.Build.0 = Release|x64
+		{CABDF783-B4B3-4CAC-82F7-466F5258293E}.Release|x86.ActiveCfg = Release|Win32
+		{CABDF783-B4B3-4CAC-82F7-466F5258293E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
