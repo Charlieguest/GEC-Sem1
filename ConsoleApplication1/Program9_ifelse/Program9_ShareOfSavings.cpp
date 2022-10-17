@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int mySavings = 2000;
-	int yourPercentage = 50;
+	float yourPercentage = 50.0f;
 	int yourShare = (mySavings * (yourPercentage / 100));
 
 	cout << "your share: " << yourShare << endl;
