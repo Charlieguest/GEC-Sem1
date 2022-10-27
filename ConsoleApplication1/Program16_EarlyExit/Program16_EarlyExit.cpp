@@ -5,24 +5,28 @@ int main()
 {
     int playerLife = 100;
     int damageTaken;
-    int i = 1;
+    int i = 0;
 
-    for (i = 1; i >= 10; i++)
+    cout << "Player Life: " << playerLife << endl;
+  
+
+    for (i = 0; i < 10; i++)
     {
         if (playerLife > 0) {
             
-            cout << "Question " << i << "How much damage should i deal?";
+            cout << "Question " << i + 1 << " How much damage should i deal? ";
 
             cin >> damageTaken;
 
             playerLife -= damageTaken;
 
-            if (i == 10) {
+            if (i == 9) {
                 cout << "All questions asked. Player Survived!" << endl;
             }
         }
         else {
             cout << "Early end. Player Died" << endl;
+            i = 11;
         }
     }
 }
