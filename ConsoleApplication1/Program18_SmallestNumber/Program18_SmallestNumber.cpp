@@ -9,6 +9,7 @@ int main()
     int num1;
     int num2;
     float num3;
+    float num4;
 
     for (int i = 0; i < 3; i++)
     {
@@ -26,9 +27,9 @@ int main()
         cin >> num3;
     }
 
-    MultipliedNumber(num3);
+    num4 = MultipliedNumber(num3);
 
-    cout << num3 << endl;
+    
 }
 
 void SmallestNumber(int a, int b) 
