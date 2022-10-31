@@ -2,7 +2,7 @@
 using namespace std;
 void SmallestNumber(int a, int b);
 float MultipliedNumber(float c);
-
+void DividedNumber(float d);
 
 int main()
 {
@@ -18,34 +18,31 @@ int main()
         cin >> num1;
         cout << "Input another number: " << endl;
         cin >> num2;
-    }
 
-    SmallestNumber(num1, num2);
+        SmallestNumber(num1, num2);
+    }
 
     for (int i = 0; i < 3; i++)
     {
         cout << "Input a number that will be multiplied by 10 and then divided by 3." << endl;
         cin >> num3;
+
+        num4 = MultipliedNumber(num3);
+
+        DividedNumber(num4);
     }
 
-    num4 = MultipliedNumber(num3);
-
-    cout << num4 << endl;
-
-    num5 = MultipliedNumber(num4);
-
-    cout << num5 << endl;
 }
 
 void SmallestNumber(int a, int b) 
 {
     if (a > b) 
     {
-        cout << a << " Is the smallest number." << endl;
+        cout << b << " Is the smallest number." << endl;
     }
     else if (a < b) 
     {
-        cout << b << " Is the smallest number." << endl;
+        cout << a << " Is the smallest number." << endl;
     }
     else 
     {
@@ -59,8 +56,8 @@ float MultipliedNumber(float c)
     return c;
 }
 
-float DividedNumber(float d)
+void DividedNumber(float d)
 {
-    d /= 3;
-    return d;
+    float e = d / 3;
+    cout << d << " Divided by 3 = " << e << endl;
 }
