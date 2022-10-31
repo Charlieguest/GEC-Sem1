@@ -10,6 +10,7 @@ int main()
     int num2;
     float num3;
     float num4;
+    float num5;
 
     for (int i = 0; i < 3; i++)
     {
@@ -29,7 +30,11 @@ int main()
 
     num4 = MultipliedNumber(num3);
 
-    
+    cout << num4 << endl;
+
+    num5 = MultipliedNumber(num4);
+
+    cout << num5 << endl;
 }
 
 void SmallestNumber(int a, int b) 
@@ -52,4 +57,10 @@ float MultipliedNumber(float c)
 {
     c *= 10;
     return c;
+}
+
+float DividedNumber(float d)
+{
+    d /= 3;
+    return d;
 }
