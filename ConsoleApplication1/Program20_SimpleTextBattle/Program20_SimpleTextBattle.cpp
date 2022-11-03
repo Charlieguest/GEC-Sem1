@@ -11,7 +11,7 @@ int main()
 {
 	int playersChoice = 1;
 	
-	while (playing = true)
+	while (playing)
 	{
 		cout << "You have met a troll and have 3 options of attack" << endl;
 		cout << endl;
@@ -23,8 +23,9 @@ int main()
 		cin >> playersChoice;
 	
 		AttackChoice(playersChoice);
-		
-		PlayState();
+
+		playing = PlayState();
+
 	}
 	
 	return 0;
@@ -42,38 +43,26 @@ void AttackChoice(int choice)
 
 	switch (choice) {
 		case 1:
-			playerHealth - trollSword;
-			enemyHealth - swordDamage;
+			playerHealth -= trollSword;
+			enemyHealth -= swordDamage;
 			cout << "You have hit the troll" << endl;
 			cout << "The troll has hit you" << endl;
-			if (playerHealth < 0 || enemyHealth < 0) {
-				playerHealth = 0;
-				enemyHealth = 0;
-			}
 			cout << "Your health is " << playerHealth << endl;
 			cout << "The troll's health is " << enemyHealth << endl;
 			break;
 		case 2:
-			playerHealth - trollMagic;
-			enemyHealth - magicDamage;
+			playerHealth -= trollMagic;
+			enemyHealth -= magicDamage;
 			cout << "You have hit the troll" << endl;
 			cout << "The troll has hit you" << endl;
-			if (playerHealth < 0 || enemyHealth < 0) {
-				playerHealth = 0;
-				enemyHealth = 0;
-			}
 			cout << "Your health is " << playerHealth << endl;
 			cout << "The troll's health is " << enemyHealth << endl;
 			break;
 		case 3:
-			playerHealth - trollAxe;
-			enemyHealth - axeDamage;
+			playerHealth -= trollAxe;
+			enemyHealth -= axeDamage;
 			cout << "You have hit the troll" << endl;
 			cout << "The troll has hit you" << endl;
-			if (playerHealth < 0 || enemyHealth < 0) {
-				playerHealth = 0;
-				enemyHealth = 0;
-			}
 			cout << "Your health is " << playerHealth << endl;
 			cout << "The troll's health is " << enemyHealth << endl;
 			break;
@@ -89,30 +78,41 @@ bool PlayState()
 		cout << "You have killed the Troll and Won" << endl;
 		cout << "play again y/n?" << endl;
 		cin >> playAgainOption;
+		cout << playAgainOption;
 		if (playAgainOption == 'y')
 		{
+			enemyHealth = 1000;
+			playerHealth = 2000;
 			return true;
 		}
-		else 
+		else if (playAgainOption == 'n')
 		{
 			return false;
 		}
+		else {
+			cout << "That was not an option" << endl;
+		}
 	}
-	if (playerHealth <= 0)
+	else if (playerHealth <= 0)
 	{
 		cout << "You have been killed by the Troll and lost" << endl;
 		cout << "play again y/n?" << endl;
 		cin >> playAgainOption;
-		if (playAgainOption == 'n')
+		if (playAgainOption == 'y')
 		{
+			enemyHealth = 1000;
+			playerHealth = 2000;
 			return true;
 		}
-		else
+		else if (playAgainOption == 'n')
 		{
 			return false;
 		}
+		else {
+			cout << "That was not an option" << endl;
+		}
 	}
 
-	return false;
+	return true;
 
 }
