@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32516.85
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{C101D574-8A26-4F3D-8AC7-16175A42B6C8}"
 EndProject
@@ -22,7 +22,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program9_ShareofSavings", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program11_Difficulty_Measure", "Program11_Difficulty_Measure\Program11_Difficulty_Measure.vcxproj", "{AD7CCB79-8F89-42CB-962C-F6AA55C34466}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program12_this-then-that", "Program12_this-then-that\Program12_this-then-that.vcxproj", "{FC4ABF2C-60BF-423F-AF3E-737622037097}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program12_this_then_that", "Program12_this-then-that\Program12_this-then-that.vcxproj", "{FC4ABF2C-60BF-423F-AF3E-737622037097}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program13_DiscountedIfElse", "Program13_DiscountedIfElse\Program13_DiscountedIfElse.vcxproj", "{6AE99806-7D27-4D9C-95B0-2525CC9F805E}"
 EndProject
@@ -35,6 +35,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program17_LocalVariablesAndCopies", "Program17_LocalVariablesAndCopies\Program17_LocalVariablesAndCopies.vcxproj", "{8999BA74-B59E-403E-8EC7-B275737E0695}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program18_SmallestNumber", "Program18_SmallestNumber\Program18_SmallestNumber.vcxproj", "{05A0D77D-6FDC-4FAB-B615-6F4BDCC93F79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program19_OddEven", "Program19_OddEven\Program19_OddEven.vcxproj", "{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program20_SimpleTextBattle", "Program20_SimpleTextBattle\Program20_SimpleTextBattle.vcxproj", "{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -180,6 +184,22 @@ Global
 		{05A0D77D-6FDC-4FAB-B615-6F4BDCC93F79}.Release|x64.Build.0 = Release|x64
 		{05A0D77D-6FDC-4FAB-B615-6F4BDCC93F79}.Release|x86.ActiveCfg = Release|Win32
 		{05A0D77D-6FDC-4FAB-B615-6F4BDCC93F79}.Release|x86.Build.0 = Release|Win32
+		{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}.Debug|x64.ActiveCfg = Debug|x64
+		{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}.Debug|x64.Build.0 = Debug|x64
+		{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}.Debug|x86.Build.0 = Debug|Win32
+		{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}.Release|x64.ActiveCfg = Release|x64
+		{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}.Release|x64.Build.0 = Release|x64
+		{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}.Release|x86.ActiveCfg = Release|Win32
+		{29F54D44-C06D-420E-9895-DCFD1BAB0AA4}.Release|x86.Build.0 = Release|Win32
+		{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}.Debug|x64.ActiveCfg = Debug|x64
+		{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}.Debug|x64.Build.0 = Debug|x64
+		{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}.Debug|x86.ActiveCfg = Debug|Win32
+		{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}.Debug|x86.Build.0 = Debug|Win32
+		{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}.Release|x64.ActiveCfg = Release|x64
+		{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}.Release|x64.Build.0 = Release|x64
+		{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}.Release|x86.ActiveCfg = Release|Win32
+		{CA1D0566-9FED-432D-BC60-38AB7AFDBCEA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
