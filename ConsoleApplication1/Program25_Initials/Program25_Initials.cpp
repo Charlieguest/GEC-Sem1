@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <array>
+#include <string>
 using namespace std;
 
 /*
@@ -40,3 +41,30 @@ int main()
     cout << "stringToChange contains " << stringToChange << endl;
 }
 */
+/*
+int main()
+{
+    char string1[] = "TestString1";
+    char string2[] = "TestString2";
+
+    if ( strcmp(string1, string2) == 0 )
+    {
+        cout << "Matching string" << endl;
+    }
+}
+*/
+
+int main()
+{
+    char name[30];
+    string firstInitial;
+    string secondInitial;
+    string lastName;
+
+    cout << "to enter in a single line their first name initial, followed by a space, their middle name initial followed by a space and the entirety of their surname." << endl;
+    cin.getline(name, 30);
+
+    cout << name << endl;
+
+
+}
