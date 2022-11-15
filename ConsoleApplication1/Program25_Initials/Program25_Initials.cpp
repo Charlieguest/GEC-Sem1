@@ -56,15 +56,23 @@ int main()
 
 int main()
 {
-    char name[30];
+    char name[10];
     string firstInitial;
     string secondInitial;
     string lastName;
 
-    cout << "to enter in a single line their first name initial, followed by a space, their middle name initial followed by a space and the entirety of their surname." << endl;
+    cout << "Enter in a single line your first name initial, followed by a space, your middle name initial followed by a space and the entirety of your surname." << endl;
     cin.getline(name, 30);
 
-    cout << name << endl;
-
-
+    for (int i = 0; i <= sizeof(name); i++)
+    {
+        if (name[i] == ' ')
+        {
+            cout << name[i] << endl;
+        }
+        else
+        {
+            cout << name[i];
+        }
+    }
 }
