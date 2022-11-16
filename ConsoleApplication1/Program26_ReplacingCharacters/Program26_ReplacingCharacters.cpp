@@ -75,12 +75,65 @@ int main()
 
 /*
 ---------------------
-FINDING AND RETRIEVING
+FINDING AND REPLACING
 ---------------------
 */
 
+/*
 int main()
 {
     string testString = "String manipulation is cool is it not";
     cout << "Find: 'is': " << testString.find("is") << endl;
+
+    string testString2 = "String manipulation is cool! is it not!";
+    cout << "rfind 'is': " << testString2.rfind("is") << endl;
+
+    string testString3 = "String manipulation is cool! Is it not";
+    string testString4 = "No it's not";
+
+    cout << "testString3 contains: " << testString3 << endl;
+    testString3.replace(28, 10, testString4);
+    cout << "testString4 now contains: " << testString4 << endl;
+}
+*/
+
+/*
+---------------------
+REPLACING CHARACTERS
+---------------------
+*/
+
+
+/*
+int main()
+{
+    string testString = "123456";
+    string stringToInsert = "xx";
+
+    testString.insert( 3, stringToInsert, 0, stringToInsert.length() );
+
+    cout << testString << endl;
+}
+*/
+
+int main() {
+
+    string sentence;
+    string x = "x";
+
+    cout << "Enter a sentence: " << endl;
+    
+    getline(cin, sentence);
+
+    cout << sentence << endl;
+
+    for (int i = 0; i < size(sentence); i++)
+    {
+        if (sentence[i] == 'e')
+        {
+            sentence.replace(sentence.find("e"), 1, x);
+        }
+    }
+
+    cout << sentence << endl;
 }
