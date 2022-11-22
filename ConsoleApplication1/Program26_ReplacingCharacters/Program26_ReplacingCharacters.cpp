@@ -99,10 +99,9 @@ int main()
 
 /*
 ---------------------
-REPLACING CHARACTERS
+INSERTING CHARACTERS
 ---------------------
 */
-
 
 /*
 int main()
