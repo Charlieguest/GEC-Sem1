@@ -3,20 +3,21 @@ using namespace std;
 
 int main()
 {
-    int count = 3;
+    // Changed value of integer
+    int count = 4;
 
-    for (int i = 1; i > count; i++)
+    // Changed the operator sign around
+    for (int i = 1; i < count; i++)
     {
         cout << i;
 
-        if (count = 2)
+        if (i == 2)
         {
-            cout << “ is an even number” << endl;
-
+            cout << " is an even number "<< endl;
         }
         else
         {
-            cout << “ is an odd number” << endl;
+            cout << " is an odd number " << endl;
         }
     }
 
