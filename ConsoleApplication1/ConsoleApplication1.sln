@@ -60,6 +60,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program-Pointers-test2", "P
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program-Pointers-test3", "Program-Pointers-test3\Program-Pointers-test3.vcxproj", "{41FE7B54-53C6-4E7C-B7DC-1DFC6FF077C8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program34_ReplaceCommasWithSpaces", "Program34_ReplaceCommasWithSpaces\Program34_ReplaceCommasWithSpaces.vcxproj", "{789DBB93-220B-4507-A656-0BF54C1FD772}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -300,6 +302,14 @@ Global
 		{41FE7B54-53C6-4E7C-B7DC-1DFC6FF077C8}.Release|x64.Build.0 = Release|x64
 		{41FE7B54-53C6-4E7C-B7DC-1DFC6FF077C8}.Release|x86.ActiveCfg = Release|Win32
 		{41FE7B54-53C6-4E7C-B7DC-1DFC6FF077C8}.Release|x86.Build.0 = Release|Win32
+		{789DBB93-220B-4507-A656-0BF54C1FD772}.Debug|x64.ActiveCfg = Debug|x64
+		{789DBB93-220B-4507-A656-0BF54C1FD772}.Debug|x64.Build.0 = Debug|x64
+		{789DBB93-220B-4507-A656-0BF54C1FD772}.Debug|x86.ActiveCfg = Debug|Win32
+		{789DBB93-220B-4507-A656-0BF54C1FD772}.Debug|x86.Build.0 = Debug|Win32
+		{789DBB93-220B-4507-A656-0BF54C1FD772}.Release|x64.ActiveCfg = Release|x64
+		{789DBB93-220B-4507-A656-0BF54C1FD772}.Release|x64.Build.0 = Release|x64
+		{789DBB93-220B-4507-A656-0BF54C1FD772}.Release|x86.ActiveCfg = Release|Win32
+		{789DBB93-220B-4507-A656-0BF54C1FD772}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
