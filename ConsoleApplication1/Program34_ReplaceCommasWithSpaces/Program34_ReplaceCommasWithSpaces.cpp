@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+
 void comma2blank(char* textToChange);
 
 int main()
@@ -11,20 +13,31 @@ int main()
 
 	cin.getline(text, sizeof(text));
 
-	comma2blank(text);
+	for (int i = 0; i < sizeof(text) + 1; i++)
+	{
+		if (text[i] == ',')
+		{
+			comma2blank(&text[i]);
+		}
+	}
+
+
+	for (int i = 0; i < 50; i++)
+	{
+		cout << text[i];
+	}
 }
 
 void comma2blank(char* textToChange)
 {
-	cout << *textToChange << endl;
+	//cout << *textToChange << endl;
 
-	/* for (int i = 0; i < sizeof(text) + 1; i++)
-	{
-		if (text[i] == ',')
-		{
-			
-		}
-	}
-	*/
+	*textToChange = ' ';
+
+	//if (*textToChange == ',')
+	//{
+	//	*textToChange = ' ';
+	//}
+
 }
 
