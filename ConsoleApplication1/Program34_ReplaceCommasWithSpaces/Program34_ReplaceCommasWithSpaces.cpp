@@ -30,14 +30,6 @@ int main()
 
 void comma2blank(char* textToChange)
 {
-	//cout << *textToChange << endl;
-
 	*textToChange = ' ';
-
-	//if (*textToChange == ',')
-	//{
-	//	*textToChange = ' ';
-	//}
-
 }
 
