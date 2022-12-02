@@ -1,11 +1,13 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 int main()
 {
 	string testString = "Do you know who loves C++, XX does";
 	string inputString;
+	string inputStringLonger;
 	int length;
 
 	cout << "Enter your name: " << endl;
@@ -18,11 +20,15 @@ int main()
 
 	cout << testString << endl;
 
+	testString.erase(remove(testString.begin(), testString.end(), 'X'), testString.end()); //remove X from string
+
+	cout << testString << endl;
+
 	cout << "Enter another longer name: " << endl;
 
-	getline(cin, inputString);
+	getline(cin, inputStringLonger);
 
-	testString.replace(testString.find("X"), length + 2, inputString);
+	testString.replace(testString.find(inputString), length, inputStringLonger);
 
 	cout << testString << endl;
 }
