@@ -19,6 +19,7 @@ int main()
     char moreDetails = 'y';
     ofstream outFile;
     ifstream inFile;
+    string lineOfText;
 
     while (userChoice != 4)
     {
@@ -47,16 +48,34 @@ int main()
                         cin >> account1.balence;
                         cout << "Thank you!" << endl;
                         cout << endl;
+                        outFile << account1.name << endl;
+                        outFile << account1.accountNumber << endl;
+                        outFile << account1.balence << endl;
                         cout << "Do you wish to answer any more details" << endl;
                         cout << "Please answer y/n" << endl;
                         cin >> moreDetails;
-
                     }
                     else
                     {
                         outFile.close();
                     }
                 }
+            break;
+            case 2:
+                inFile.open("bank.txt");
+                if (inFile.is_open())
+                {
+                    while (getline(inFile, lineOfText))
+                    {
+                        cout << lineOfText << endl;
+                        cout << endl;
+                    }
+                }
+                else
+                {
+                    cerr << "Something has gone wrong and the file hasn't opened properly";
+                }
+                inFile.close();
             break;
             default:
                 cout << "Cheese paste" << endl;
