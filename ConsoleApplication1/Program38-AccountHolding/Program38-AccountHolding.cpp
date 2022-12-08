@@ -65,9 +65,19 @@ int main()
                 inFile.open("bank.txt");
                 if (inFile.is_open())
                 {
-                    while (getline(inFile, lineOfText))
+                    
+
+                    while (!inFile.eof())
                     {
-                        cout << lineOfText << endl;
+                        inFile >> account2.name;
+                        inFile >> account2.accountNumber;
+                        inFile >> account2.balence;
+                        //
+                        
+                        //account2.name = lineOfText;
+                        cout << account2.name << endl;
+                        cout << account2.accountNumber << endl;
+                        cout << account2.balence << endl;
                         cout << endl;
                     }
                 }
@@ -76,6 +86,13 @@ int main()
                     cerr << "Something has gone wrong and the file hasn't opened properly";
                 }
                 inFile.close();
+            break;
+            case 3:
+                inFile.open("bank.txt");
+                if (inFile.is_open())
+                {
+
+                }
             break;
             default:
                 cout << "Cheese paste" << endl;
