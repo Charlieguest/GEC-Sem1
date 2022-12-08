@@ -72,6 +72,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program-FileHandelingTest",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program38-AccountHolding", "Program38-AccountHolding\Program38-AccountHolding.vcxproj", "{D49CAFC2-9DA9-42FA-A4F1-B509E276737A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program39_TopTenScores", "Program39_TopTenScores\Program39_TopTenScores.vcxproj", "{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -360,6 +362,14 @@ Global
 		{D49CAFC2-9DA9-42FA-A4F1-B509E276737A}.Release|x64.Build.0 = Release|x64
 		{D49CAFC2-9DA9-42FA-A4F1-B509E276737A}.Release|x86.ActiveCfg = Release|Win32
 		{D49CAFC2-9DA9-42FA-A4F1-B509E276737A}.Release|x86.Build.0 = Release|Win32
+		{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}.Debug|x64.ActiveCfg = Debug|x64
+		{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}.Debug|x64.Build.0 = Debug|x64
+		{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}.Debug|x86.Build.0 = Debug|Win32
+		{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}.Release|x64.ActiveCfg = Release|x64
+		{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}.Release|x64.Build.0 = Release|x64
+		{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}.Release|x86.ActiveCfg = Release|Win32
+		{AF892EA2-38CB-4F8B-96EA-65FA65B1D4FD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
