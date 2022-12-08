@@ -4,9 +4,17 @@ using namespace std;
 void ScoreEntry();
 void DisplayScores();
 
+struct Score {
+    string nameArray[10];
+    int scoreArray[10];
+    string name;
+    int score;
+};
+
 int main()
 {
     int choice = 0;
+
 
     while (choice != 3)
     {
@@ -17,26 +25,43 @@ int main()
         cout << "(1) Enter a score" << endl;
         cout << "(2) Display scores" << endl;
         cout << "(3) Exit" << endl;
-        if (choice == 1)
+        cin >> choice;
+        switch (choice)
         {
-            ScoreEntry();
-        }
-        else if (choice == 2)
-        {
-            DisplayScores();
-        }
-        else
-        {
-            cout << "This wasn't an available option" << endl;
+            case 1:
+                ScoreEntry();
+            break;
+            default:
+                cout << "cheese";
+            break;
         }
     }
 }
 
 void ScoreEntry()
 {
-    cout << endl;
-    cout << "Please enter a Score" << endl;
-    cout << "Please enter a Name" << endl;
+    Score entry;
+    fstream inOutFile;
+    inOutFile.open("Scores.txt", std::ios_base::app);
+    if (inOutFile.is_open())
+    {
+        cout << endl;
+        cout << "Please enter a Score" << endl;
+        cin >> entry.score;
+        cout << "Please enter a Name" << endl;
+        cin >> entry.name;
+        for (int i = 0; i < sizeof(entry.scoreArray); i++) {
+            if (entry.scoreArray[i] < entry.score)
+            {
+                entry.scoreArray[i] = entry.score;
+                entry.nameArray[i] = entry.name;
+                inOutFile << entry.name;
+                inOutFile << entry.score << endl;
+            }
+        }
+
+    }
+    inOutFile.close();
 }
 
 void DisplayScores()
