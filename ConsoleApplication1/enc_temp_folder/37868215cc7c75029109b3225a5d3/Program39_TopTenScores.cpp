@@ -56,7 +56,7 @@ void ScoreEntry()
                 entry.scoreArray[i] = entry.score;
                 entry.nameArray[i] = entry.name;
                 cout << entry.scoreArray[i] << endl;
-                inOutFile << "Name: " << entry.nameArray[i] << " || ";
+                inOutFile << "Name: " << entry.nameArray[i] << " ";
                 inOutFile << "Score: " << entry.scoreArray[i] << endl;
 
             }
