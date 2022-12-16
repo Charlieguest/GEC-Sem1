@@ -2,8 +2,6 @@
 #include <fstream>
 #include <string>
 using namespace std;
-void ScoreEntry();
-void DisplayScores();
 
 struct Score {
     string name;
@@ -106,13 +104,4 @@ int main()
             break;
         }
     }
-}
-
-void ScoreEntry()
-{
-}
-
-void DisplayScores()
-{
-
 }
