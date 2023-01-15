@@ -99,8 +99,11 @@ int main()
                 }
                 inFile.close();
             break;
+            case 3:
+                exit(1);
+            break;
             default:
-                cout << "cheese";
+                cout << "That Wasn't one of the options";
             break;
         }
     }
